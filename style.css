@@ -6,6 +6,10 @@ justify-content: space-between;
 background-color: antiquewhite;
 width: 100%;
 }
+.titulo{
+    text-align: center; 
+    justify-content: center;
+} 
 a{
     text-decoration: none;
 }
@@ -33,6 +37,10 @@ h1{
     color: rgb(41, 41, 73);
     font-family: "Kanit", sans-serif;
 } 
+.carrusel{
+    width: 50%;
+    margin: 20px auto;
+}
 p{
     font-size: 20px;
     padding: 10px;
@@ -50,24 +58,31 @@ p{
 .objetivo{
     display: flex;
     flex-direction: row;
-    width: 900px; 
-    background-color: violet;   
+    align-items: center; 
+    width: 100%; 
+    background-color: violet;  
 }
 .caja{
-    width: 900px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 .caja img{
     width: 150px;
     border-radius: 50%;
 }
+.Venta img{
+    vertical-align: top;
+	margin:10px;
+	padding: 5px;
+    }
 #Nosotros{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    text-align: center;
 }
 #Nosotros iframe{
     padding: 10px 0 10px 0;
